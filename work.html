@@ -4,23 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize2.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>First Site</title>
 
   <style>
-
-      body {
-        margin:0;
-        background-color: lightgrey;
-      }
-
-
-
           * {
             box-sizing: border-box;
           }
 
+          h1 {
+            font-size: 50px;
+            color:white;
+            text-align: center;
+          }
 
+          p{
+          text-align: center;
+          }
+
+          h2{
+          text-align: center;
+          color:white;
+          }
 
           /* Center website */
           .main {
@@ -79,34 +86,6 @@
           }
 
 
-
-      .icon-bar {
-        width: 100%;
-        background-color: #555;
-        overflow: auto;
-      }
-
-      .icon-bar a {
-        display: block;
-        text-decoration: none;
-        float: left;
-        width: 9%;
-        text-align: center;
-        padding: 12px 0;
-        transition: all 0.5s ease;
-        color: white;
-        font-size: 30px;
-        src: url(fonts\proxima bold\Proxima Nova Bold.otf);
-      }
-
-      .icon-bar a:hover {
-        background-color: #000;
-      }
-
-      .active {
-        background-color: #4CAF50;
-      }
-
       .hero {
         position:relative;
         padding: 100px 100px 50px 100px;
@@ -121,21 +100,27 @@
 
     </style>
 
-  <title>Document</title>
 </head>
+
 <body>
 
   <header>
-    <div class="icon-bar">
-      <nav>
-            <a href="about.html"> <img src="/img/A.png" alt="Company Logo" height="100" width="100"></a>
-            <a href="about.html">About</a>
-            <a href="work.html">Work</a>
-            <a href="videos.html">Videos</a>
-            <a href="ux.html">UX/UI Work</a>
-            <a href="contact.html">Contact</a>
-      </nav>
-    </div>
+    <div>
+      <div class="header clearfix">
+          <div class="logo">
+            <a href="index.html"><img src="img/A.png" alt="Company Logo" height="100" width="100"></a>
+          </div>
+            <nav class="navcontainer">
+                <ul class="menu">
+                  <li><a href="work.html">Works</a></li>
+                  <li><a href="videos.html">Videos</a></li>
+                  <li><a href="ux.html">UX/UI Projects</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+      </div>
+  </header>
 
 
 
@@ -178,6 +163,7 @@
         </div>
       </div>
     <!-- END GRID -->
+
     </div>
 
     <div class="row">
@@ -209,7 +195,9 @@
           <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
         </div>
       </div>
+
     <!-- END GRID -->
+
     </div>
 
     <div class="row">
@@ -241,7 +229,9 @@
           <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
         </div>
       </div>
+
     <!-- END GRID -->
+
     </div>
 
     <div class="row">
@@ -273,7 +263,9 @@
           <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
         </div>
       </div>
+
     <!-- END GRID -->
+
     </div>
 
     <div class="row">
@@ -310,8 +302,6 @@
 
 
     </footer>
-
-  </header>
 
 </body>
 </html>
