@@ -3,6 +3,6 @@
 # Alberto Caicedo
 
 ## Files
-about.html
+index.html
 
 ###### XD File
