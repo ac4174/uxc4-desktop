@@ -36,6 +36,10 @@
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-around;
   }
+  .img2{
+    padding: 100px 100px 100px 100px;
+    max-width: 500px;
+  }
 }
 
 /* Small screens */
@@ -48,11 +52,11 @@
     text-align: center;
   }
   .img2{
-    padding: 100px 100px 50px 50px;
+    padding: 100px 100px 100px 100px;
     max-width: 300px;
   }
   .hero3{
-    position: center;   
+    position: center;
   }
 }
 
