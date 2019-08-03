@@ -1,14 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+@import url("https://use.typekit.net/oqd2xyi.css");
+
+/* font-family: 'Saira Stencil One', cursive; */
+
+.content h3 {
+   font-family: 'Saira Stencil One', cursive;
+}
+
+.content p {
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+}
+
+.whoami h2 {
+   font-family: 'Saira Stencil One', cursive;
+}
+
+.whoami p {
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+}
+.a{
+  height: 100px;
+  width: 100px;
+  margin: 4px 10px 0px 10px;
+}
+
+
+.schoolBookbold{
+font-family: schoolbook, serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.baroqueTextJFregular{
+font-family: baroque-text-jf, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.acuminprobold{
+font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.AcuminProBoldItalic{
+font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.AcuminProItalic{
+font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.AcuminProRegular{
+font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.AcuminProCondensedBold{
+font-family: acumin-pro-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.AcuminProCondensedBoldItalic{
+font-family: acumin-pro-condensed, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.AcuminProCondensedRegular{
+font-family: acumin-pro-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.AcuminProCondensedItalic
+{
+font-family: acumin-pro-condensed, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.AcuminProExtraCondensedBold{
+font-family: acumin-pro-extra-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.AcuminProExtraCondensedBoldItalic{
+font-family: acumin-pro-extra-condensed, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.AcuminProExtraCondensedRegular{
+font-family: acumin-pro-extra-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.AcuminProExtraCondensedItalic{
+font-family: acumin-pro-extra-condensed, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.AcuminProSemiCondensedBold{
+font-family: acumin-pro-semi-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.AcuminProSemiCondensedBoldItalic{
+font-family: acumin-pro-semi-condensed, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.AcuminProSemiCondensedRegular{
+font-family: acumin-pro-semi-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.AcuminProSemiCondensedItalic{
+font-family: acumin-pro-semi-condensed, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.AcuminProWideBold{
+font-family: acumin-pro-wide, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.AcuminProWideBoldItalic{
+font-family: acumin-pro-wide, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.AcuminProWideRegular{
+font-family: acumin-pro-wide, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.Acuminprowideitalic{
+font-family: acumin-pro-wide, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+
+
+
 .header {
   position: relative;
   background: #555;
 }
 .logo { float: left; width: 30%; }
-.navcontainer { float: right; width: 70%; }
+.navcontainer { float: right; width: 40%; }
 .menu {
   list-style: none;
   margin: 0;
   padding: 0;
-
+  font-family: 'Saira Stencil One', cursive;
+  /* font-family: 'Saira Stencil One', cursive; */
   background: transparent;
 
   display: -webkit-box;
@@ -32,14 +198,14 @@
 }
 /* Medium screens */
 
-@media all and (max-width: 1800px) {
+@media all and (max-width: 1920px) {
   .menu {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-around;
   }
   .img2{
-    padding: 100px 100px 100px 100px;
-    max-width: 600px;
+    /* padding: 100px 100px 100px 100px; */
+    max-width: 500px;
   }
 }
 
@@ -49,8 +215,12 @@
     justify-content: space-around;
   }
   .img2{
-    padding: 100px 100px 100px 100px;
+    /* padding: 100px 100px 100px 100px; */
     max-width: 500px;
+  }
+  .container .hero3{
+    padding: 0 2%;
+    width: auto;
   }
 }
 
@@ -64,12 +234,13 @@
     text-align: center;
   }
   .img2{
-    padding: 100px 100px 100px 100px;
+    /* padding: 100px 100px 100px 100px; */
     max-width: 300px;
   }
-  .hero3{
-    position: center;
-  }
+  /* .container .hero3{
+    padding: 0 2%;
+    width: auto;
+  } */
 }
 
 
@@ -83,9 +254,14 @@ background-color: #333;
 
 .hero3 {
 display: inline-block;
-padding: 50px 50px 50px 50px;
+/* padding: 50px 50px 50px 50px; */
 text-align: center;
 background-color: white;
+width:100%;
+}
+.whoami{
+  max-width: 610px;
+  margin: 0 auto;
 }
 .container {
 margin: auto;
