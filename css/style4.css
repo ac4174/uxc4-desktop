@@ -2,16 +2,16 @@
   margin:auto;
   /* padding:0; */
   background: #333;
-  display:flex;
   justify-content: center;
-  align-items: center;
   font-family: proxima;
 }
 
 .container3{
   width:1200px;
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
   justify-content: space-between;
 }
 
@@ -97,3 +97,8 @@
     background: #333;
     color:#fff;
   }
+}
+/*
+ .grid{
+  grid-column: auto;
+} */
