@@ -168,7 +168,7 @@ font-style: italic;
   background: #555;
 }
 .logo { float: left; width: 30%; }
-.navcontainer { float: right; width: 40%; }
+.navcontainer { float: right; width: 48%; }
 .menu {
   list-style: none;
   margin: 0;
@@ -254,11 +254,12 @@ background-color: #333;
 
 .hero3 {
 display: inline-block;
-/* padding: 50px 50px 50px 50px; */
+padding: 50px 50px 50px 50px;
 text-align: center;
 background-color: white;
 width:100%;
 }
+
 .whoami{
   max-width: 610px;
   margin: 0 auto;
