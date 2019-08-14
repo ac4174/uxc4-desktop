@@ -7,9 +7,9 @@
 
 
 .position{
-  margin: 100px 100px;
+  margin: 20px 46px;
   display: block;
-  max-width: 50%;
+  max-width: 93%;
 }
 
 h1 {
@@ -34,11 +34,9 @@ font-family: acumin-pro, sans-serif;
 
 /* Center website */
 .main2{
-  display: inline-block;
-float: right;
-width: 491px;
-margin-right: 100px;
-margin-top: -1400px;
+max-width: 510px;
+margin-right: 160px;
+margin-top: 0px;
 }
 
 .main {
@@ -54,7 +52,7 @@ h1 {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1500px) {
   .column {
     width: 50%;
   }
@@ -68,8 +66,6 @@ h1 {
   margin: 0 auto;
   float: right;
   width: 321px;
-  margin-right: 25px;
-  margin-top: -755px;
   }
   h1 {
      font-family: 'Saira Stencil One', cursive;
@@ -87,6 +83,98 @@ h1 {
 }
 
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1190px) {
+  .column {
+    width: 50%;
+  }
+  .position{
+    margin: 50px 50px;
+    display: block;
+    max-width: 50%;
+  }
+  .main2{
+  max-width: 610px;
+  margin: 0 auto;
+  float: right;
+  width: 321px;
+  }
+  h1 {
+     font-family: 'Saira Stencil One', cursive;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+  }
+
+  .p2{
+  padding-top: 10px;
+  text-align: left;
+  font-family: acumin-pro, sans-serif;
+  color:white;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1080px) {
+  .column {
+    width: 50%;
+  }
+  .position{
+    margin: 50px 50px;
+    display: block;
+    max-width: 50%;
+  }
+  .main2{
+  max-width: 610px;
+  margin: 0 auto;
+  float: right;
+  width: 321px;
+  }
+  h1 {
+     font-family: 'Saira Stencil One', cursive;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+  }
+
+  .p2{
+  padding-top: 10px;
+  text-align: left;
+  font-family: acumin-pro, sans-serif;
+  color:white;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 990px) {
+  .column {
+    width: 50%;
+  }
+  .position{
+    margin: 50px 50px;
+    display: block;
+    max-width: 50%;
+  }
+  .main2{
+  max-width: 610px;
+  margin: 0 auto;
+  float: right;
+  width: 321px;
+  }
+  h1 {
+     font-family: 'Saira Stencil One', cursive;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+  }
+
+  .p2{
+  padding-top: 10px;
+  text-align: left;
+  font-family: acumin-pro, sans-serif;
+  color:white;
+  }
+}
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -125,6 +213,37 @@ h1 {
   }
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 50%;
+  }
+  .position{
+    margin: 50px 50px;
+    display: block;
+    max-width: 50%;
+  }
+  .main2{
+  max-width: 610px;
+  margin: 0 auto;
+  float: right;
+  width: 321px;
+  }
+  h1 {
+     font-family: 'Saira Stencil One', cursive;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+  }
+
+  .p2{
+  padding-top: 10px;
+  text-align: left;
+  font-family: acumin-pro, sans-serif;
+  color:white;
+  }
+}
+
 
 .hero {
 position:relative;
@@ -135,4 +254,49 @@ text-align: center;
 .content2 {
 background-color: white;
 padding: 30px 100px;
+}
+
+
+
+/* Flexbox and Grid Styles */
+table {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* outline: 1px solid red; */
+}
+
+.flexbox .flex-item {
+  width: 48%;
+  /* background-color: black;
+  outline: 1px solid green; */
+}
+​
+/***
+  Everything you need to learn CSS Grid Layout
+  Learn more at https://gridbyexample.com/
+***/
+.grid {
+  display: grid;
+  margin: 2% 0;
+  /*
+    The fr unit (a "fraction") can be used when
+    defining grids like any other CSS length such as
+    %, px or em.
+  */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-column-gap: 2%; */
+  /* grid-row-gap: 10px; */
+  /* Short hand */
+  grid-gap: 1em;
+​
+}
+.grid .grid-item {
+  outline: 1px solid orange;
+  text-align: center;
 }
